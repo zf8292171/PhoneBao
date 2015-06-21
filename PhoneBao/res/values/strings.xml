@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手淘</string>
+    <string name="hello_world">Hello world!</string>
+	
+    <color name="white">#FFFFFF</color>
+   	<color name="gray">#CDC9C9</color>
+   	<color name="red">#FF3030</color>
+   	<color name="clearred">#A52A2A</color>
+   	<color name="font">#0091F6</color>
+   	<color name="font2">#323232</color>
+   	
+   	<dimen name="shadow_width">15dp</dimen>
+   	<dimen name="slidingmenu_offset">60dp</dimen>
+   	<dimen name="sliding_width">300dp</dimen>
+</resources>

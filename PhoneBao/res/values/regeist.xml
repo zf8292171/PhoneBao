@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="regeist_txt_title_back">\t&lt;back</string>
+    <string name="regeist_input_user_hint">请输入用户名(字母数字组合)</string>
+    <string name="regeist_btntext_next">下  一  步</string>
+    <string name="regeist_input_name_hint">请输入您的联系电话</string>
+    <string name="regeist_input_no_hint">请输入您的email邮箱地址</string>
+    <string name="regeist_input_password_hint">请设置您的登陆密码</string>
+
+
+    <color name="regeist_img_line">#8B8B83</color>
+
+
+</resources>

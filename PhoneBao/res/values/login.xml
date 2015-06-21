@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_hint_login_user">请输入登陆账户</string>
+	<string name="login_hint_password">请输入登陆密码</string>
+	<string name="login_imghint">图片无法正常显示</string>
+	<string name="login_btnOK">登   陆</string>
+	<string name="login_txt_regeist">注册</string>
+	<string name="login_txt_resume">重置</string>
+	<string name="login_txt_title">登陆</string>
+	
+	
+	<color name="login_btnok">#18B4ED</color>
+	<color name="login_btnok_down">#0099FF</color>
+	<color name="login_inputcolor">#FFFFFF</color>
+	<color name="login_img_line">#8B8B83</color>
+	<color name="login_btn_txtcolor">#FFFFFF</color>
+</resources>

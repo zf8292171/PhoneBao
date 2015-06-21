@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_tip_text">未设置</string>
+    <string name="title_lefe">\t&lt;back</string>
+    
+    
+    <color name="title_tip_color">#FFFFFF</color>
+    <color name="title_background">#18B4ED</color>
+</resources>

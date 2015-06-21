@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shop_search_history_tip">历史记录</string>
+    <string name="shop_search_filter_radio1">综合</string>
+    <string name="shop_search_filter_radio2">销量</string>
+    <string name="shop_search_filter_radio3">价格</string>
+    
+</resources>

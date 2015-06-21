@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="attribute">
+        <item>品牌</item>
+        <item>CPU核心</item>
+        <item>RAM</item>
+        <item>ROM</item>
+        <item>像素</item>
+        <item>颜色</item>
+        <item>网络支持</item>
+        <item>价格</item>
+    </string-array>
+    <string-array name="brand">
+        <item>全部</item>
+        <item>iphone</item>
+        <item>三星</item>
+        <item>诺基亚</item>
+        <item>WindowPhone</item>
+        <item>SONY</item>
+        <item>LG</item>
+        <item>华为</item>
+        <item>中兴</item>
+        <item>小米</item>
+        <item>HTC</item>
+        <item>酷派</item>
+        <item>OPPO</item>
+        <item>vivo</item>
+    </string-array>
+    <string-array name="CPU">
+        <item>全部</item>
+        <item>64位苹果A8处理器</item>
+        <item>32位苹果A7处理器</item>
+        <item>三星 Exynos 7420</item>
+        <item>海思麒麟 935</item>
+        <item>海思 Kirin 925</item>
+        <item>苹果 A8+M8协处理器</item>
+        <item>苹果 A7/M7协处理器</item>
+        <item>iOS 9</item>
+    </string-array>
+    <string-array name="RAM">
+        <item>全部</item>
+        <item>1G</item>
+        <item>1.6G</item>
+        <item>1.4G</item>
+        <item>1.8G</item>
+        <item>2.0G</item>
+    </string-array>
+    <string-array name="ROM">
+        <item>全部</item>
+        <item>8G</item>
+        <item>16G</item>
+        <item>18G</item>
+        <item>32G</item>
+        <item>64G</item>
+        <item>128G</item>
+        <item>256G</item>
+    </string-array>
+    <string-array name="PX">
+        <item>全部</item>
+        <item>500万像素</item>
+        <item>800万像素</item>
+        <item>1200万像素</item>
+        <item>1300万像素</item>
+         <item>1600万像素</item>
+        <item>2100万像素</item>
+    </string-array>
+    <string-array name="Color">
+        <item>全部</item>
+        <item>黑色</item>
+        <item>金色</item>
+        <item>白色</item>
+        <item>粉色</item>
+        <item>银灰色</item>
+        <item>咖啡色</item>
+        <item>红色</item>
+        <item>蓝色</item>
+    </string-array>
+    <string-array name="Web">
+        <item>全部</item>
+        <item>移动TD-LTE</item>
+        <item>联通TD-LTE</item>
+        <item>联通TD-LTE 移动TD-LTE</item>
+    </string-array>
+    <string-array name="Price">
+        <item>全部</item>
+        <item>&lt;1000</item>
+        <item>1000~2000</item>
+        <item>2000~4000</item>
+        <item>&gt;4000</item>
+    </string-array>
+
+</resources>

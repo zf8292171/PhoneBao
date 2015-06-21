@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.phoneshop.customview.Title
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.phoneshop.customview.Title>
+
+    <LinearLayout
+        android:id="@+id/regeist_page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/regeist_input_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:hint="@string/regeist_input_user_hint"
+            android:paddingLeft="20dp"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/login_btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_regeist_btn"
+            android:text="@string/regeist_btntext_next"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    
+    
+    <!-- 第2个页面 -->
+    <LinearLayout
+        android:id="@+id/regeist_page2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/regeist_input_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:hint="@string/regeist_input_name_hint"
+            android:paddingLeft="20dp"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/regeist_img_line" />
+
+        <EditText
+            android:id="@+id/regeist_input_no"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:hint="@string/regeist_input_no_hint"
+            android:paddingLeft="20dp"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/login_btn_next2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_regeist_btn"
+            android:text="@string/regeist_btntext_next"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    
+    
+    
+    
+    
+     <!-- 第3个页面  -->
+     <LinearLayout
+        android:id="@+id/regeist_page3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/regeist_input_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:hint="@string/regeist_input_password_hint"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+        <Button
+            android:id="@+id/login_btn_next3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_regeist_btn"
+            android:text="@string/regeist_btntext_next"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

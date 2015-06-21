@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_txt_orderform">我 的 订 单</string>
+    <string name="tab_txt_wucollect">商 品 收 藏</string>
+    <string name="tab_txt_diancollect">店 铺 收 藏</string>
+    <string name="tab_txt_mypay">我 的 资 产</string>
+    <string name="tab_txt_dress">收 获 地 址</string>
+    <string name="tab_txt_logout">退 出 登 陆</string>
+    <string name="tab_txt_exit">退 出 应 用</string>
+</resources>

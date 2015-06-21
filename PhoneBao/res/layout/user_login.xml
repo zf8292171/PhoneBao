@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical" >
+
+   <com.phoneshop.customview.Title 
+       android:id="@+id/title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       
+   </com.phoneshop.customview.Title>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <com.phoneshop.customview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/login_imghint"
+            android:padding="5dp"
+            android:src="@drawable/default_headpic" >
+        </com.phoneshop.customview.CircleImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_content_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/login_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/login_inputcolor"
+            android:hint="@string/login_hint_login_user"
+            android:paddingLeft="20dp"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/login_img_line" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/login_inputcolor"
+            android:hint="@string/login_hint_password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/login_btnok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_regeist_btn"
+            android:text="@string/login_btnOK"
+            android:textColor="@color/login_btn_txtcolor" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/login_txt_regeist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/login_txt_regeist"
+            android:textColor="@color/login_btnok"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/login_txt_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/login_txt_resume"
+            android:textColor="@color/login_btnok"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

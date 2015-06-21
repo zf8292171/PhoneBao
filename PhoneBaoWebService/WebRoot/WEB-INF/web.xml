@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+
+
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.webservice.user.UserLogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/login.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserRegeist</servlet-name>
+		<servlet-class>com.webservice.user.UserRegeist</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserRegeist</servlet-name>
+		<url-pattern>/regeist.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserRepeter</servlet-name>
+		<servlet-class>com.webservice.user.UserRepeter</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetShopBriefInfo</servlet-name>
+		<servlet-class>com.webservice.shop.GetShopBriefInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetShopHeadPic</servlet-name>
+		<servlet-class>com.webservice.shop.GetShopHeadPic</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetShopInfo</servlet-name>
+		<servlet-class>com.webservice.shop.GetShopInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetShopPic</servlet-name>
+		<servlet-class>com.webservice.shop.GetShopPic</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetShopComments</servlet-name>
+		<servlet-class>com.webservice.shop.GetShopComments</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddToShopCart</servlet-name>
+		<servlet-class>com.webservice.shop.AddToShopCart</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetShopCartInfo</servlet-name>
+		<servlet-class>com.webservice.shop.GetShopCartInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetAddressInfo</servlet-name>
+		<servlet-class>com.webservice.user.GetAddressInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PlayOrder</servlet-name>
+		<servlet-class>com.webservice.shop.PlayOrder</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetOrderInfo</servlet-name>
+		<servlet-class>com.webservice.user.GetOrderInfo</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>GetShopHeadPics</servlet-name>
+    <servlet-class>com.webservice.shop.GetShopHeadPics</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAdGoodsIds</servlet-name>
+    <servlet-class>com.webservice.shop.GetAdGoodsIds</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetADPic</servlet-name>
+    <servlet-class>com.webservice.shop.GetADPic</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CollectShop</servlet-name>
+    <servlet-class>com.webservice.user.CollectShop</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DisCollectGoods</servlet-name>
+    <servlet-class>com.webservice.user.DisCollectGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IsCollect</servlet-name>
+    <servlet-class>com.webservice.user.IsCollect</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetGoodsCollect</servlet-name>
+    <servlet-class>com.webservice.shop.GetGoodsCollect</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderCancle</servlet-name>
+    <servlet-class>com.webservice.shop.OrderCancle</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteAddress</servlet-name>
+    <servlet-class>com.webservice.user.DeleteAddress</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetProvince</servlet-name>
+    <servlet-class>com.webservice.shop.GetProvince</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCity</servlet-name>
+    <servlet-class>com.webservice.shop.GetCity</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCountry</servlet-name>
+    <servlet-class>com.webservice.shop.GetCountry</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InsertAddress</servlet-name>
+    <servlet-class>com.webservice.shop.InsertAddress</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMoney</servlet-name>
+    <servlet-class>com.webservice.shop.GetMoney</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>UserRepeter</servlet-name>
+		<url-pattern>/repeter.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetShopBriefInfo</servlet-name>
+		<url-pattern>/getShopBriefInfo.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetShopHeadPic</servlet-name>
+		<url-pattern>/getShopHeadPic.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetShopInfo</servlet-name>
+		<url-pattern>/getShopInfo.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetShopPic</servlet-name>
+		<url-pattern>/getShopPic.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetShopComments</servlet-name>
+		<url-pattern>/getShopComments.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddToShopCart</servlet-name>
+		<url-pattern>/addToShopCart.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetShopCartInfo</servlet-name>
+		<url-pattern>/getShopCartInfo.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetAddressInfo</servlet-name>
+		<url-pattern>/getAddressInfo.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PlayOrder</servlet-name>
+		<url-pattern>/playOrder.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetOrderInfo</servlet-name>
+		<url-pattern>/getOrderInfo.do</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetShopHeadPics</servlet-name>
+    <url-pattern>/getShopHeadPics.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAdGoodsIds</servlet-name>
+    <url-pattern>/getAdGoodsIds.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetADPic</servlet-name>
+    <url-pattern>/getADPic.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectShop</servlet-name>
+    <url-pattern>/collectShop.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DisCollectGoods</servlet-name>
+    <url-pattern>/disCollectGoods.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsCollect</servlet-name>
+    <url-pattern>/isCollect.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGoodsCollect</servlet-name>
+    <url-pattern>/getGoodsCollect.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderCancle</servlet-name>
+    <url-pattern>/orderCancle.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAddress</servlet-name>
+    <url-pattern>/deleteAddress.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetProvince</servlet-name>
+    <url-pattern>/getProvince.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCity</servlet-name>
+    <url-pattern>/getCity.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCountry</servlet-name>
+    <url-pattern>/getCountry.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertAddress</servlet-name>
+    <url-pattern>/insertAddress.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMoney</servlet-name>
+    <url-pattern>/getMoney.do</url-pattern>
+  </servlet-mapping>
+
+</web-app>
